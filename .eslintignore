@@ -1,0 +1,12 @@
+**/node_modules
+**/dist
+**/.idea/
+**/.log
+**/npm-debug.log
+**/.env
+**/.DS_Store
+**/coverage
+**/logs
+jest.config.js
+jest.setup.ts
+jest-mongodb-config.js

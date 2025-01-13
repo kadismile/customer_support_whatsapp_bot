@@ -59,8 +59,9 @@ To start the application:
 npm run dev
 ```
 
-navigate to http://localhost:9000/authenticate
-to activate the bot add your email address and click the button to activate.
+navigate to http://localhost:9000/authenticate (locally) or 
+navigate to https://customer-support-whatsapp-bot-q77v.onrender.com/authenticate if you want to check it out online
+to activate the bot add your email address and click the button to get a QR code(it will be slow on the live server due to free plan)
 
 ## Contact
 

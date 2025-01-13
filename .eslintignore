@@ -10,3 +10,4 @@
 jest.config.js
 jest.setup.ts
 jest-mongodb-config.js
+/src/views

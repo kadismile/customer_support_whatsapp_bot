@@ -8,3 +8,5 @@ coverage
 .env.tst
 /dist
 jest.setup.ts
+.wwebjs_cache
+sessions

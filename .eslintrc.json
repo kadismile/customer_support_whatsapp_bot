@@ -28,7 +28,6 @@
         "SwitchCase": 1
       }
     ],
-    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
     "no-console": [
       "error",
       {

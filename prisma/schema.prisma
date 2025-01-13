@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}
+
+model Faq {
+  id        Int    @id @default(autoincrement())
+  question  String
+  answer    String
+  embedding  String?
+}
+
+model Log {
+  id          Int      @id @default(autoincrement())
+  userQuery   String
+  botResponse String
+  createdAt   DateTime @default(now())
+}
